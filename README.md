@@ -1,4 +1,4 @@
-# General
+# Kanban desk
 **Owner:** Nina Belova
 
 # Goals to achieve:
