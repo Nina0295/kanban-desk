@@ -1,0 +1,85 @@
+$newProjectButtonColor : white;
+$toDoPaperColor:rgb(43, 168, 177);
+$inProgressColumn:rgb(192, 110, 51);
+$reviewColumn:rgb(161, 50, 161);
+$doneColumn:rgb(92, 192, 92);
+
+body {
+  background-image: url('./assets/pngtree-good-morning-morning-room-background-design-morningbluefresh-backgroundroomindoorillustration-backgroundplantadvertising-image_65746.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.task-board-page {
+
+    .app-bar-container{
+      height: 100%;
+
+      .app-bar-style {
+        height: 60px;
+        }
+
+        .header-text{
+          margin: 1.5% 0 1.5% 3%;
+        }
+    }
+
+    .task-column {
+      background-color: $toDoPaperColor;
+      min-height: 9vh;
+      margin-top: 25vh;
+      margin-left: 3vh;
+      margin-right: 3vh;
+      margin-bottom: 20vh;
+
+      .task-column-header{
+        margin: 3%;
+        color: $newProjectButtonColor ;
+      }
+
+      .card-task {
+        margin: 3%;
+
+        .title-card{
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+        }
+
+        .high-priority{
+          color: red;
+          margin-top: 1vh;
+          display: flex;
+          justify-content: space-between;
+        }
+        .medium-priority{
+          color: rgb(224, 156, 9);
+          margin-top: 1vh;
+          display: flex;
+          justify-content: space-between;
+        }
+        .low-priority{
+          color:green;
+          margin-top: 1vh;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+
+      .add-task-button{
+        width: 100%;
+        color: $newProjectButtonColor;
+      }
+
+      &.in-progress  {
+        background-color: $inProgressColumn;
+      }
+      &.review {
+        background-color:$reviewColumn;
+      }
+      &.done {
+        background-color: $doneColumn;
+      }
+    }
+}

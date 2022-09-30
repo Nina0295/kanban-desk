@@ -1,0 +1,23 @@
+.task-modal {
+
+  .MuiPaper-elevation24{
+    max-height: 60vh;
+  }
+
+  .modal-description {
+    min-width: 62vh;
+    color: rgba(0, 0, 0, 0.87);
+  }
+
+  .high-priority{
+    color: rgb(197, 44, 44);
+  }
+
+  .medium-priority{
+    color: rgb(216, 134, 11);
+  }
+
+  .low-priority{
+    color:green;
+  }
+}
