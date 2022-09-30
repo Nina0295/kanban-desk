@@ -1,7 +1,5 @@
 # General
-**Mentor:** Nina Belova
-**Start date:** 18 April
-**End date:** 18 June
+**Owner:** Nina Belova
 
 # Goals to achieve:
     1. Improve plain JavaScript knowlege
