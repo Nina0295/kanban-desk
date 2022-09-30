@@ -1,6 +1,20 @@
 # Kanban desk
 **Owner:** Nina Belova
 
+**Layout with tasks:**
+
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/63970475/193250588-25d6943b-c4e2-4346-8a5f-f4a74f2c1be5.png">
+
+**Modal window for editing :**
+
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/63970475/193250675-9fcc4572-a033-45e0-a35a-7c7c79b57872.png">
+
+**Drag-and-drop functionality :**
+
+<img width="1680" alt="image" src="https://user-images.githubusercontent.com/63970475/193251133-7e961378-1ffa-4c1a-9477-6f74633ac46b.png">
+
+
+
 # Goals to achieve:
     1. Improve plain JavaScript knowlege
         - Pass JS test at a high level https://learn.javascript.ru
