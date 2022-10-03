@@ -11,7 +11,7 @@ export class LocalStorageService {
     return LocalStorageService.instance;
   }
 
-  getTasks = (): TaskCard[] => {
+  getTasks ():TaskCard[] {
     const tasks = localStorage.getItem('tasks');
 
     if (tasks !== null) {
@@ -21,7 +21,7 @@ export class LocalStorageService {
     }
   }
 
-  addTasks = (newTask: TaskCard): void => {
+  addTasks (newTask: TaskCard): void {
     const tasks = localStorage.getItem('tasks');
 
     if (tasks !== null) {
@@ -33,13 +33,13 @@ export class LocalStorageService {
     }
   }
 
-  deleteTask = (taskId: string): void => {
+  deleteTask (taskId: string): void {
     const updatedTasks = this.getTasks().filter((task) => task.taskId !== taskId);
 
     localStorage.setItem('tasks', JSON.stringify(updatedTasks))
   }
 
-  updatedTask = (changedTask: TaskCard): void => {
+  updatedTask (changedTask: TaskCard): void {
     const tasks = this.getTasks();
     const taskIndex = tasks.findIndex((task) => task.taskId === changedTask.taskId)
     tasks.splice(taskIndex, 1, changedTask);
